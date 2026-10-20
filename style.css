@@ -100,10 +100,16 @@ nav a {
     border-radius: 20px;
 }
 img {
-    max width: 100%;
+   max-width: 100%;
 }
 
-  
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 8px;
+    }
+
     h1 {
         font-size: 28px;
     }
+}

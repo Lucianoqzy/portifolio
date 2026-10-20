@@ -103,11 +103,6 @@ img {
     max width: 100%;
 }
 
-@media 
-    header {  max width: 600px;
-        flex-direction: column;
-        gap: 8px;
-    }
   
     h1 {
         font-size: 28px;

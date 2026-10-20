@@ -103,8 +103,8 @@ img {
     max width: 100%;
 }
 
-@media  (max widht:600px)  {
-    header {
+@media 
+    header {  max width: 600px;
         flex-direction: column;
         gap: 8px;
     }
@@ -112,4 +112,3 @@ img {
     h1 {
         font-size: 28px;
     }
-}
